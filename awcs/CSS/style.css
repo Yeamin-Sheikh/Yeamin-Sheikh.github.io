@@ -1,0 +1,62 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.title-pl {
+  padding-left: 10px;
+}
+
+.bg-gradiant {
+  background-size: 400%;
+  background-image: linear-gradient(
+    45deg,
+    #74acdf,
+    #74acdf,
+    white,
+    #f6b40e,
+    white,
+    #74acdf
+  );
+  animation: bg-animation 10s ease-in-out infinite;
+}
+
+body {
+  background-color: rgba(119, 136, 153, 0.274);
+  padding-top: 55px;
+}
+
+.carousel-position {
+  max-height: 600px;
+}
+
+.card {
+  background-size: 400%;
+  background-image: linear-gradient(
+    45deg,
+    #74acdf,
+    white,
+    #f6b40e,
+    white,
+    #74acdf
+  );
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  animation: bg-animation 3s ease-in-out infinite;
+}
+
+@keyframes bg-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
