@@ -1,0 +1,25 @@
+{
+  "name": "bwcs-2022",
+  "version": "1.0.0",
+  "description": "A git repository for Argentina World Cup Squald 2022 Website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yeamin-Sheikh/Belgium-World-Cup-Squad-2022.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yeamin-Sheikh/Belgium-World-Cup-Squad-2022/issues"
+  },
+  "homepage": "https://github.com/Yeamin-Sheikh/Belgium-World-Cup-Squad-2022#readme",
+  "devDependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1"
+  }
+}
